@@ -1,0 +1,14 @@
+Django part 1 註解：
+
+manage.py：在每個Django專案中都會產生，
+主要協助將Python的package放入sys.path以及設置DJANGO_SETTINGS_MODULE環境中的變數以便能指向專案中settings.py的檔案裡
+
+runserver：在瀏覽器中啟動Django專案
+
+include()：能夠將Python執行的路徑導入須被包含在一個區域的模組
+
+path()：包含4個參數→route、view、kwargs、name，
+route：含有URL模式的字串，能夠逐一比較每個模式與所要求之URL是否相應，直至找出相匹配的URL模式
+view：如找到相應的URL模式，將呼叫view功能並攜帶HttpRequest物件作為第一參數並從路徑中抓取任何數值作為關鍵參數
+kwargs：任意關鍵參數都能在某文件夾中被傳遞至目標的view
+name：僅操作單一檔案便能夠對專案中的URL模式做極大的變化

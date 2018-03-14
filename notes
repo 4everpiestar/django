@@ -12,3 +12,12 @@ route：含有URL模式的字串，能夠逐一比較每個模式與所要求之
 view：如找到相應的URL模式，將呼叫view功能並攜帶HttpRequest物件作為第一參數並從路徑中抓取任何數值作為關鍵參數
 kwargs：任意關鍵參數都能在某文件夾中被傳遞至目標的view
 name：僅操作單一檔案便能夠對專案中的URL模式做極大的變化
+
+Django part 2 註解：
+
+migrate：
+
+DateTimeField：
+
+ForeignKey：
+

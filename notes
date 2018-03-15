@@ -15,9 +15,11 @@ name：僅操作單一檔案便能夠對專案中的URL模式做極大的變化
 
 Django part 2 註解：
 
-migrate：
+migration：數據遷移，可將對模組所產生的數據遷移至個人的資料庫，一般預設為自動遷移，但必須了解應何時使用此功能、何時遷移數據
 
-DateTimeField：
+migrate：啟用與停用migration功能
 
-ForeignKey：
+Field：抽象分類，可呈現一個資料庫的表格欄
+
+ForeignKey：將多個資料定義為同一個分類，類似於建立兩方的關係，形式為多對一
 

@@ -1,3 +1,7 @@
+Ubuntu：
+
+sudo：授予使用者權限來執行程式更新、下載，升級等動作
+
 Django part 1 註解：
 
 manage.py：在每個Django專案中都會產生，
@@ -23,3 +27,6 @@ Field：抽象分類，可呈現一個資料庫的表格欄
 
 ForeignKey：將多個資料定義為同一個分類，類似於建立兩方的關係，形式為多對一
 
+Django part 3 註解：
+
+ROOT_URLCONF：顯示Python完整的導入路徑至個人的根URLconf
